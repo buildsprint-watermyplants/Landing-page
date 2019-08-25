@@ -173,3 +173,27 @@ footer nav a {
   color: #6B82C7;
   text-decoration: none;
 }
+.whatOffered {
+  background: #E3EBE0;
+}
+.whatOffered h1 {
+  color: #465C3D;
+}
+.whatOffered .offer-container {
+  display: flex;
+  flex-direction: column;
+}
+.whatOffered .offer-container .info-box {
+  height: 120px;
+  width: 120px;
+  background: #fff;
+  border: none;
+  border-radius: 7px;
+  margin: 20px auto;
+  padding: 5px;
+  text-align: center;
+}
+.whatOffered .offer-container .info-box h2 {
+  color: #465C3D;
+  text-transform: uppercase;
+}
