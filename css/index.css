@@ -142,3 +142,34 @@ h5 {
 h1 {
   font-size: 32px;
 }
+footer {
+  background: #BACCB3;
+  height: 50px;
+  padding: 0 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Sarabun', sans-serif;
+  letter-spacing: 1.23px;
+  color: #6B82C7;
+}
+footer p {
+  font-size: 0.8rem;
+  color: #90A1D5;
+  display: flex;
+  justify-content: left;
+  text-align: left;
+}
+footer nav {
+  display: flex;
+}
+footer nav p {
+  margin: 0 10px;
+}
+footer nav a {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #6B82C7;
+  text-decoration: none;
+}
