@@ -27,6 +27,12 @@ header {
         // font-weight: bold;
         position: relative;
         
+        img {
+          @media @desktop {
+          width:2%;
+          
+          }
+          
         }
         h1 {
             flex-wrap: wrap;
@@ -43,7 +49,7 @@ header {
                 }
             @media @desktop {
                     
-                    font-size:16rem;
+                    font-size:10rem;
                     }
         }
         div {
@@ -54,7 +60,6 @@ header {
             
           a {
               text-decoration:none;
-              
           }
           button {
           
@@ -74,6 +79,7 @@ header {
             color:white;  
              margin-left:70%;
              @media @desktop {
+              margin-top:10%;
               margin-left:80%;     
               font-size:3rem;
               }
@@ -92,7 +98,13 @@ header {
             bottom:-35px;
             border:1px solid #2A3B6F;
             opacity: 1.2;
-            
+           
+            @media @desktop {
+              font-size: 3rem;
+              width: 20%;
+              height: 12%;
+              margin: 0% 35%;
+            }
           }
          
         }
@@ -119,7 +131,7 @@ header {
 
         width:100%;
         padding:3% 0 0 0;
-        // background-size: 1368px 682px;
+        background-size: 110% 100%;
     }
 }
 
@@ -136,12 +148,24 @@ header {
         padding:10% 11%;
         padding-bottom: 10%;
         background-color: #F3F3F3;
+        @media @desktop {
+        background-color: #ECF1EA;
+        }
         h2 {
           color:#465C3D;
           margin-bottom:7%;
           padding-top:6%;
           font-size:3rem;
-          
+          @media @tablet1 {
+            font-size:5.4rem
+          }
+          @media @tablet2 {
+            font-size:5.4rem
+          }
+          @media @desktop {
+            color:#384F94;
+            font-size:5.4rem
+          }
         }
         p{ 
 
@@ -156,7 +180,11 @@ header {
             font-size:3.6rem
           }
           @media @desktop {
-            font-size:3.6rem
+            font-size:3.6rem;
+            color:#698A5C;
+            width: 62%;
+            margin-left: 27%;
+            
           }
        }
 
@@ -173,8 +201,15 @@ header {
           margin:6% 0;
           justify-content: center;
           text-decoration: none;
+          @media @desktop {
+            width:25%;
+          }
           button {
-            
+            @media @desktop {
+              font-size:3rem;
+              width: 90%;
+              height: 65px;
+            }
             color:#E1E6F4;
             width:85%;
             height:45px;
