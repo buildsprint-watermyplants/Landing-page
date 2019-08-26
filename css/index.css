@@ -172,7 +172,7 @@ header {
 }
 @media (min-width: 1025px) {
   header img {
-    width: 2%;
+    width: 3%;
   }
 }
 header h1 {
@@ -221,7 +221,7 @@ header div #joinUs {
   header div #joinUs {
     margin-top: 10%;
     margin-left: 80%;
-    font-size: 3rem;
+    font-size: 4rem;
   }
 }
 header div #joinNow {
@@ -238,10 +238,12 @@ header div #joinNow {
 }
 @media (min-width: 1025px) {
   header div #joinNow {
-    font-size: 3rem;
-    width: 20%;
+    color: white;
+    font-size: 4rem;
+    width: 28%;
     height: 12%;
-    margin: 0% 35%;
+    margin: 0% 23%;
+    bottom: -50px;
   }
 }
 @media (min-width: 2px) and (max-width:500px) {
@@ -267,7 +269,6 @@ header div #joinNow {
 @media (min-width: 1025px) {
   header {
     width: 100%;
-    padding: 3% 0 0 0;
     background-size: 110% 100%;
   }
 }
@@ -328,8 +329,8 @@ header div #joinNow {
   .container .mission p {
     font-size: 3.6rem;
     color: #698A5C;
-    width: 62%;
-    margin-left: 27%;
+    width: 48%;
+    margin-left: 22%;
   }
 }
 .container .SigInUp {
