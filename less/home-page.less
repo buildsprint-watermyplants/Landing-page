@@ -1,7 +1,7 @@
 .main-container{
     
     max-width: 500px;
-    // overflow-x: hidden
+    overflow-x: hidden
     
 }
 
@@ -26,6 +26,8 @@ header {
         color:white;
         // font-weight: bold;
         position: relative;
+        
+        }
         h1 {
             flex-wrap: wrap;
             // font-size:4.6rem;
@@ -39,32 +41,42 @@ header {
             @media @tablet2 {
                 font-size:10rem;
                 }
-                @media @desktop {
+            @media @desktop {
+                    
                     font-size:16rem;
                     }
         }
         div {
+          
             margin-top:2%;
+            
+        
             
           a {
               text-decoration:none;
+              
           }
           button {
           
            font-size: 2rem;
           font-weight: bold;
+          @media @desktop {
+                    
+            font-size:3rem;
+            }
           
           }
-        
+       
           #joinUs {
-            
+           
             font-size: 2rem;
             font-weight: bold;
-            color:white;
-            
-            
-             margin-left:70%
-            ;
+            color:white;  
+             margin-left:70%;
+             @media @desktop {
+              margin-left:80%;     
+              font-size:3rem;
+              }
             
           }
          
