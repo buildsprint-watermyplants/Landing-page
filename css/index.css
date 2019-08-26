@@ -145,6 +145,7 @@ h5 {
 }
 h1 {
   font-size: 3.6rem;
+  line-height: 1.4;
 }
 h2 {
   font-size: 2.4rem;
@@ -160,7 +161,6 @@ p {
 }
 header {
   display: flex;
-  border: 1px solid darkblue;
   padding: 10% 5%;
   flex-direction: column;
   justify-content: space-evenly;
@@ -171,6 +171,16 @@ header {
   position: relative;
 }
 @media (min-width: 1025px) {
+  header img {
+    width: 3%;
+  }
+}
+@media (min-width: 501px) and (max-width:800px) {
+  header img {
+    width: 3%;
+  }
+}
+@media (min-width: 801px) and (max-width:1024px) {
   header img {
     width: 3%;
   }
@@ -205,6 +215,7 @@ header div a {
 header div button {
   font-size: 2rem;
   font-weight: bold;
+  width: 146px;
 }
 @media (min-width: 1025px) {
   header div button {
@@ -224,13 +235,25 @@ header div #joinUs {
     font-size: 4rem;
   }
 }
+@media (min-width: 501px) and (max-width:800px) {
+  header div #joinUs {
+    margin-top: 10%;
+    font-size: 4rem;
+  }
+}
+@media (min-width: 801px) and (max-width:1024px) {
+  header div #joinUs {
+    margin-top: 10%;
+    font-size: 4rem;
+  }
+}
 header div #joinNow {
   color: #C8D6C2;
-  border-radius: 10px;
-  width: 40%;
-  height: 55px;
+  border-radius: 5px;
+  width: 146;
+  height: 50px;
   background-color: #2A3B6F;
-  margin: 2% 5%;
+  margin: 2% 4%;
   position: absolute;
   bottom: -35px;
   border: 1px solid #2A3B6F;
@@ -240,9 +263,27 @@ header div #joinNow {
   header div #joinNow {
     color: white;
     font-size: 4rem;
-    width: 28%;
+    width: 22%;
     height: 12%;
-    margin: 0% 23%;
+    margin: 0% 19%;
+    bottom: -50px;
+  }
+}
+@media (min-width: 501px) and (max-width:800px) {
+  header div #joinNow {
+    font-size: 3rem;
+    width: 25%;
+    height: 12%;
+    margin: 0 13%;
+    bottom: -45px;
+  }
+}
+@media (min-width: 801px) and (max-width:1024px) {
+  header div #joinNow {
+    font-size: 4rem;
+    width: 25%;
+    height: 12%;
+    margin: 0 12%;
     bottom: -50px;
   }
 }
@@ -255,15 +296,15 @@ header div #joinNow {
 @media (min-width: 501px) and (max-width:800px) {
   header {
     width: 800px;
-    padding: 3% 0 0 0;
-    background-size: 800px 530px;
+    padding: 3% 0 0 5%;
+    background-size: 800px 100%;
   }
 }
 @media (min-width: 801px) and (max-width:1024px) {
   header {
     width: 1024px;
-    padding: 3% 0 0 0;
-    background-size: 1024px 682px;
+    padding: 3% 0 0 5%;
+    background-size: 1024px 100%;
   }
 }
 @media (min-width: 1025px) {
@@ -341,27 +382,41 @@ header div #joinNow {
 }
 .container .SigInUp a {
   display: flex;
-  width: 40%;
+  width: 45%;
   margin: 6% 0;
   justify-content: center;
   text-decoration: none;
 }
 @media (min-width: 1025px) {
   .container .SigInUp a {
-    width: 25%;
+    width: 30%;
   }
 }
 .container .SigInUp a button {
   color: #E1E6F4;
-  width: 85%;
+  width: 86%;
   height: 45px;
   background-color: #4B67BB;
   border: 1px solid #4B67BB;
-  border-radius: 10px;
+  border-radius: 5px;
   font-size: 2.2rem;
   font-weight: bolder;
 }
 @media (min-width: 1025px) {
+  .container .SigInUp a button {
+    font-size: 3rem;
+    width: 90%;
+    height: 65px;
+  }
+}
+@media (min-width: 501px) and (max-width:800px) {
+  .container .SigInUp a button {
+    font-size: 3rem;
+    width: 90%;
+    height: 65px;
+  }
+}
+@media (min-width: 801px) and (max-width:1024px) {
   .container .SigInUp a button {
     font-size: 3rem;
     width: 90%;
