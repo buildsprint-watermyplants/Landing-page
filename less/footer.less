@@ -10,6 +10,12 @@ footer {
   letter-spacing: 1.23px;
   color: #6B82C7;
 
+  @media @desktop {
+    height: 160px;
+    align-items: center;
+    padding: 0 320px;
+  }
+
   p {
     text-align: left;
     font-size: 0.8rem;
@@ -17,17 +23,30 @@ footer {
     display: flex;
     justify-content: left;
     text-align: left;
+
+    @media @desktop {
+      font-size: 2rem;
+      align-items: center;
+    }
   }
   nav {
     display: flex;
-    p {
+    span {
       margin: 0 10px;
+      @media @desktop {
+        font-size: 2rem;
+      }
     } 
     a {
       font-size: 0.8rem;
       font-weight: 500;
       color: #6B82C7;
       text-decoration: none;
+      
+      @media @desktop {
+        font-size: 2rem;
+        align-items: center;
+      }
     }
   }
 
