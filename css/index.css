@@ -523,3 +523,79 @@ p {
     background-size: 110% 100%;
   }
 }
+footer {
+  background: #BACCB3;
+  height: 50px;
+  padding: 0 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Sarabun', sans-serif;
+  letter-spacing: 1.23px;
+  color: #6B82C7;
+}
+footer p {
+  font-size: 0.8rem;
+  color: #90A1D5;
+  display: flex;
+  justify-content: left;
+  text-align: left;
+}
+footer nav {
+  display: flex;
+}
+footer nav p {
+  margin: 0 10px;
+}
+footer nav a {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #6B82C7;
+  text-decoration: none;
+}
+.whatOffered {
+  background: #E3EBE0;
+}
+.whatOffered h1 {
+  font-family: 'Courgette';
+  padding: 20px;
+  color: #465C3D;
+}
+.whatOffered .offer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+}
+.whatOffered .offer-container .info-box {
+  height: 246px;
+  width: 246px;
+  background: #fff;
+  border: none;
+  border-radius: 7px;
+  margin: 20px auto;
+  padding: 5px;
+  text-align: center;
+}
+.whatOffered .offer-container .info-box h2 {
+  font-family: 'Sarabun';
+  color: #465C3D;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  width: 100%;
+  padding: 1rem;
+}
+.whatOffered .offer-container .info-box .text-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 170px;
+}
+.whatOffered .offer-container .info-box .text-container p {
+  color: #578A42;
+  font-size: 2rem;
+}
