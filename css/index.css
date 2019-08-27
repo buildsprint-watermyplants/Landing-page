@@ -155,11 +155,7 @@ p {
   line-height: 1.4;
   font-family: 'Sarabun';
 }
-.main-container {
-  max-width: 500px;
-  overflow-x: hidden;
-}
-header {
+.homepage-header {
   display: flex;
   padding: 10% 5%;
   flex-direction: column;
@@ -171,83 +167,83 @@ header {
   position: relative;
 }
 @media (min-width: 1025px) {
-  header img {
+  .homepage-header img {
     width: 3%;
   }
 }
 @media (min-width: 501px) and (max-width:800px) {
-  header img {
+  .homepage-header img {
     width: 3%;
   }
 }
 @media (min-width: 801px) and (max-width:1024px) {
-  header img {
+  .homepage-header img {
     width: 3%;
   }
 }
-header h1 {
+.homepage-header h1 {
   flex-wrap: wrap;
   margin: 2% 5%;
   padding-bottom: 10%;
   padding-top: 20%;
 }
 @media (min-width: 501px) and (max-width:800px) {
-  header h1 {
+  .homepage-header h1 {
     font-size: 8rem;
   }
 }
 @media (min-width: 801px) and (max-width:1024px) {
-  header h1 {
+  .homepage-header h1 {
     font-size: 10rem;
   }
 }
 @media (min-width: 1025px) {
-  header h1 {
+  .homepage-header h1 {
     font-size: 10rem;
   }
 }
-header div {
+.homepage-header div {
   margin-top: 2%;
 }
-header div a {
+.homepage-header div a {
   text-decoration: none;
 }
-header div button {
+.homepage-header div button {
   font-size: 2rem;
   font-weight: bold;
   width: 146px;
 }
 @media (min-width: 1025px) {
-  header div button {
+  .homepage-header div button {
     font-size: 3rem;
   }
 }
-header div #joinUs {
+.homepage-header div #joinUs {
   font-size: 2rem;
   font-weight: bold;
   color: white;
   margin-left: 70%;
 }
 @media (min-width: 1025px) {
-  header div #joinUs {
+  .homepage-header div #joinUs {
     margin-top: 10%;
     margin-left: 80%;
     font-size: 4rem;
   }
 }
 @media (min-width: 501px) and (max-width:800px) {
-  header div #joinUs {
+  .homepage-header div #joinUs {
     margin-top: 10%;
     font-size: 4rem;
   }
 }
 @media (min-width: 801px) and (max-width:1024px) {
-  header div #joinUs {
+  .homepage-header div #joinUs {
     margin-top: 10%;
     font-size: 4rem;
   }
 }
-header div #joinNow {
+.homepage-header div #joinNow {
   color: #C8D6C2;
   border-radius: 5px;
   width: 146;
@@ -260,7 +256,7 @@ header div #joinNow {
   opacity: 1.2;
 }
 @media (min-width: 1025px) {
-  header div #joinNow {
+  .homepage-header div #joinNow {
     color: white;
     font-size: 4rem;
     width: 22%;
@@ -270,7 +266,7 @@ header div #joinNow {
   }
 }
 @media (min-width: 501px) and (max-width:800px) {
-  header div #joinNow {
+  .homepage-header div #joinNow {
     font-size: 3rem;
     width: 25%;
     height: 12%;
@@ -279,7 +275,7 @@ header div #joinNow {
   }
 }
 @media (min-width: 801px) and (max-width:1024px) {
-  header div #joinNow {
+  .homepage-header div #joinNow {
     font-size: 4rem;
     width: 25%;
     height: 12%;
@@ -288,27 +284,27 @@ header div #joinNow {
   }
 }
 @media (min-width: 2px) and (max-width:500px) {
-  header {
+  .homepage-header {
     max-width: 500px;
     background-size: 500px 420px;
   }
 }
 @media (min-width: 501px) and (max-width:800px) {
-  header {
+  .homepage-header {
     width: 800px;
     padding: 3% 0 0 5%;
     background-size: 800px 100%;
   }
 }
 @media (min-width: 801px) and (max-width:1024px) {
-  header {
+  .homepage-header {
     width: 1024px;
     padding: 3% 0 0 5%;
     background-size: 1024px 100%;
   }
 }
 @media (min-width: 1025px) {
-  header {
+  .homepage-header {
     width: 100%;
     background-size: 110% 100%;
   }
@@ -487,4 +483,43 @@ header div #joinNow {
 .whatOffered .offer-container .info-box .text-container p {
   color: #578A42;
   font-size: 2rem;
+}
+.about-container {
+  max-width: 500px;
+  overflow-x: hidden;
+}
+.about-container .about-header {
+  display: flex;
+  padding: 10% 5%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  background: linear-gradient(rgba(0, 100, 0, 0.3), rgba(0, 100, 0, 0.3)), url(../images/about.png);
+  filter: opacity(0.8);
+}
+@media (min-width: 2px) and (max-width:500px) {
+  .about-container .about-header {
+    max-width: 500px;
+    background-size: 500px 420px;
+  }
+}
+@media (min-width: 501px) and (max-width:800px) {
+  .about-container .about-header {
+    width: 800px;
+    padding: 3% 0 0 5%;
+    background-size: 800px 100%;
+  }
+}
+@media (min-width: 801px) and (max-width:1024px) {
+  .about-container .about-header {
+    width: 1024px;
+    padding: 3% 0 0 5%;
+    background-size: 1024px 100%;
+  }
+}
+@media (min-width: 1025px) {
+  .about-container .about-header {
+    width: 100%;
+    background-size: 110% 100%;
+  }
 }

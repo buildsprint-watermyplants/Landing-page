@@ -1,0 +1,46 @@
+.about-container{
+    
+    max-width: 500px;
+    overflow-x: hidden;
+
+    
+    .about-header {
+      
+        display: flex;
+          
+        padding: 10% 5%;
+        flex-direction: column;
+        justify-content: space-evenly; 
+        margin:0 auto;      
+        background: linear-gradient(rgba(0, 100, 0, 0.3),
+          rgba(0, 100, 0, 0.3)), url(../images/about.png);
+          filter: opacity(0.8);
+          @media @mobile {
+              max-width:500px;
+              background-size: 500px 420px;
+          } 
+          @media @tablet1 {
+          
+                  width:800px;
+                  padding:3% 0 0 5%;
+                  background-size: 800px 100%;
+          
+          
+        }
+        @media @tablet2 {
+                  width:1024px;
+                  padding:3% 0 0 5%;
+                  background-size: 1024px 100%;
+        }
+        @media @desktop {
+          
+                  width:100%;
+                  background-size: 110% 100%;
+        }
+        
+      }    
+    
+}
+
+
+        
