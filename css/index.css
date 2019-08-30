@@ -507,14 +507,14 @@ footer nav a {
 }
 .whatOffered h1 {
   font-family: 'Courgette';
-  padding: 100px 20px 25px;
+  padding: 100px 20px 5px 37px;
   color: #465C3D;
 }
 @media (min-width: 1025px) {
   .whatOffered h1 {
     font-size: 5.4rem;
     color: #384f94;
-    padding: 60px 20px 103px 85px;
+    padding: 60px 20px 6% 85px;
   }
 }
 .whatOffered .offer-container {
