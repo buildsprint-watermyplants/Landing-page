@@ -1,35 +1,76 @@
 .homepage-header {
     
     display: flex;
-    
-        padding: 10% 5%;
         flex-direction: column;
         justify-content: space-evenly; 
         margin:0 auto;
-        
-        
-        
+                       
         background: linear-gradient(rgba(0, 100, 0, 0.3),
          rgba(0, 100, 0, 0.3)), url(../images/header.png);
-         filter: opacity(0.8);
-
-        
+        filter: opacity(0.8);
         color:white;
         position: relative;
-        
-        img {
+      .top-header {
+        background-color: #E1E6F4; 
+        width:100%;
+        height:81px;
+        display:flex;
+        justify-content:space-between;
+        @media @tablet1 {
+          height: 206px;
+        }
+        @media @tablet2 {
+          height: 206px;
+        }
+        @media @desktop {
+          height: 206px;
+        }
+      }  
+      
+        .logo {
+          width: 127px;
+          height: 67px;
+          margin-left: -24px;
           @media @desktop {
-          width:3%;
-          
+            width:359px;
+            height: 180px;
+            margin-top:13px;
           }
           @media @tablet1 {
-            width:3%;
+            width:359px;
+            height: 180px;
+            margin-top:13px;
+          }
+          @media @tablet2 {
+            width:359px;
+            height: 180px;
+            margin-top:13px;
+          }
+        }
+        .signImg {
+          width: 14px;
+          height: 14px;
+          margin-top: 30px;
+          margin-right: 24px;
+      
+          
+          @media @desktop {
+            width: 28px;
+            height: 28px;
+            margin-top:85px;
+          }
+          @media @tablet1 {
+            width: 28px;
+            height: 28px;
+            margin-top:85px;
             
             }
-            @media @tablet2 {
-              width:3%;
+          @media @tablet2 {
+            width: 28px;
+            height: 28px;
+            margin-top:85px;
               
-              }
+          }
           
         }
         h1 {
@@ -48,14 +89,13 @@
                     font-size:10rem;
                     }
         }
-        div {
-          
-            margin-top:2%;
-            
-        
+        div {  
             
           a {
               text-decoration:none;
+              display:flex;
+              margin:0 5%;
+              
           }
           button {
           
@@ -70,23 +110,23 @@
           }
        
           #joinUs {
-           
+            display:flex;
             font-size: 2rem;
             font-weight: bold;
-            color:white;  
-             margin-left:69%;
+            color:#5E7A52; 
+            margin-top:26px;
+  
              @media @desktop {
-              margin-top:10%;
-              margin-left:80%;     
+              margin-top:78px; 
               font-size:4rem;
               }
               @media @tablet1 {
-                margin-top:10%;
+                margin-top:78px;
                   
                 font-size:4rem;
                 }
                 @media @tablet2 {
-                  margin-top:10%;
+                  margin-top:78px;
                      
                   font-size:4rem;
                   }
@@ -96,38 +136,39 @@
           #joinNow {
             color:#C8D6C2;
             border-radius: 5px;
-            width: 146;
+            width: 146px;
             height: 50px;
             background-color:#2A3B6F;
             margin:2% 4%;
             position: absolute;
             bottom:-35px;
+          
             border:1px solid #2A3B6F;
             opacity: 1.2;
            
             @media @desktop {
               color:white;
               font-size: 4rem;
-              width: 22%;
-              height: 12%;
-              margin: 0% 19%;
+              width: 297px;
+              height: 102px;
+              margin: 0% auto;
               bottom:-50px;
             }
             @media @tablet1 {
               
-              font-size: 3rem;
-              width: 25%;
-              height: 12%;
-              margin: 0 13%;
+              font-size: 4rem;
+              width: 297px;
+              height: 102px;
+              margin: 0 auto;
               bottom:-45px;
     
             }
             @media @tablet2 {
               
               font-size: 4rem;
-              width: 25%;
-              height: 12%;
-              margin: 0 12%;
+              width: 297px;
+              height: 102px;
+              margin: 0 auto;
               bottom:-50px;
             }
           }
@@ -137,25 +178,23 @@
 
     @media @mobile {
     max-width:500px;
-    background-size: 500px 420px;
+    background-size:100% 100%;
     }
     @media @tablet1 {
-
         width:800px;
-        padding:3% 0 0 5%;
         background-size: 800px 100%;
 
 
     }
     @media @tablet2 {
         width:1024px;
-        padding:3% 0 0 5%;
         background-size: 1024px 100%;
     }
     @media @desktop {
 
         width:100%;
-        background-size: 110% 100%;
+        background-size:cover;
+        
     }
 }
 
@@ -192,15 +231,15 @@
           }
         }
         p{ 
-
-        
-          margin: 0 5% 0 3%;
-        
+          margin: 0 5% 0 7%;
+          width: 260px;        
           color:#707070; 
           @media @tablet1 {
+            width:85%;
             font-size:3.6rem
           }
           @media @tablet2 {
+            width:88%;
             font-size:3.6rem
           }
           @media @desktop {
@@ -220,41 +259,39 @@
         background-color: #E3EBE0;
         justify-content: center;
         a{
-          display:flex;
-          width:45%;
-          margin:6% 0;
+          display:flex;         
+          margin:6% 2%;
           justify-content: center;
           text-decoration: none;
-          @media @desktop {
-            width:30%;
-          }
+          
           
           button {
             @media @desktop {
-              font-size:3rem;
-              width: 90%;
-              height: 65px;
+              font-size: 5.1rem;
+              width: 403px;
+              height: 85px;
+              
               
             }
             @media @tablet1 {
-              font-size:3rem;
-              width: 90%;
-              height: 65px;
+              font-size: 5.1rem;
+              width: 330px;
+              height: 85px;
             }
               @media @tablet2 {
-                font-size:3rem;
-                width: 90%;
-                height: 65px;
+              font-size: 5.1rem;
+              width: 403px;
+              height: 85px;
                 
               }
             color:#E1E6F4;
-            width:86%;
-            height:45px;
+            width:146px;
+            height:31px;
             
             background-color: #4B67BB;
             border:1px solid #4B67BB;
             border-radius:5px;
-            font-size: 2.2rem;
+            font-size: 2rem;
             font-weight:bolder;
             
           }
@@ -281,7 +318,8 @@
     
   }
 
-  //Leo's codes
+  
+
 .whatOffered {
   background: #E3EBE0;
   padding-bottom: 60px;

@@ -1,42 +1,149 @@
 .about-container {
+
+  margin:0 auto;
   .about-header {
       height: 20%;
       display: flex;
       color:white; 
-      padding: 10% 5%;
       flex-direction: column;
       justify-content: space-evenly; 
       margin:0 auto;      
       background: linear-gradient(rgba(0, 100, 0, 0.3),
         rgba(0, 100, 0, 0.3)), url(../images/about.png);
         filter: opacity(0.8);
+        background-size:cover;
         @media @mobile {
             width:100%;
             height:300px;
-            background-size:100% 100%;
+            
         } 
         @media @tablet1 {
         
                 width:100%;
                 height:490px;
-                padding:3% 0 0 5%;
-                background-size: 100% 100%;
-        
-        
+         
       }
       @media @tablet2 {
                 width:100%;
                 height:490px;
-                padding:3% 0 0 5%;
-                background-size: 100% 100%;
+
       }
       @media @desktop {
         
                 width:100%;
-                height:700px;
-                background-size: 100% 100%;
+                height:100vh;
+                background-size: cover;
       }
-    
+      .top-header {
+        background-color: #E1E6F4; 
+        width:100%;
+        height:81px;
+        display:flex;
+        margin-top:-84px;
+        padding-top: 7px;
+        justify-content:space-between;
+        @media @tablet1 {
+          height: 206px;
+          margin-top:-100px;
+        }
+        @media @tablet2 {
+          height: 206px;
+          margin-top:-100px;
+        }
+        @media @desktop {
+          height: 206px;
+          margin-top:-204px;
+        }
+      }  
+        .logo {
+          width: 127px;
+          height: 67px;
+          margin-left: -24px;
+          @media @desktop {
+            width:359px;
+            height: 180px;
+            margin-top:13px;
+          }
+          @media @tablet1 {
+            width:359px;
+            height: 180px;
+            margin-top:13px;
+          }
+          @media @tablet2 {
+            width:359px;
+            height: 180px;
+            margin-top:13px;
+          }
+        }
+        .signImg {
+          width: 14px;
+          height: 14px;
+          margin-top: 30px;
+          margin-right: 24px;
+      
+          
+          @media @desktop {
+            width: 28px;
+            height: 28px;
+            margin-top:85px;
+          }
+          @media @tablet1 {
+            width: 28px;
+            height: 28px;
+            margin-top:85px;
+            
+            }
+          @media @tablet2 {
+            width: 28px;
+            height: 28px;
+            margin-top:85px;
+              
+          }
+          
+        }
+        div {
+          
+         a {
+            text-decoration:none;
+            display:flex;
+
+            
+         }
+         button {
+        
+          font-size: 2rem;
+          font-weight: bold;
+          width:146px;
+          @media @desktop {
+                    
+            font-size:3rem;
+          }
+          
+        }
+     
+        #joinUs {
+          display:flex;
+          font-size: 2rem;
+          font-weight: bold;
+          color:#5E7A52; 
+          margin-top:26px;
+
+           @media @desktop {
+            margin-top:78px;
+            font-size:4rem;
+            }
+           @media @tablet1 {
+            margin-top:78px;
+              
+            font-size:4rem;
+            }
+           @media @tablet2 {
+            margin-top:78px;
+                
+            font-size:4rem;
+            }
+        }
+      }    
     h1 {
       margin-left:5%;
       
@@ -54,10 +161,11 @@
   .developers {
     
     background-color:#ECF1EA;
-    padding-top:10%;
+    padding-top:65px;
     
     h2 {
       margin-left:5%;
+      margin-bottom: 19px;
       color:#384F94;
       
       @media @tablet1 {
@@ -73,7 +181,8 @@
     }
     .members {
       text-align:center;
-      margin:2% auto;
+      margin:10px auto;
+      
       .name {
         line-height:1.5;
         font-size:2rem;
@@ -109,22 +218,58 @@
         height:200px;
         border-radius:50%;
         @media @tablet1 {
-          width:400px;
-          height:400px;
+          width:316px;
+          height:316px;
         }
         @media @tablet2 {
-
-          width:400px;
-          height:400px;
+          width:316px;
+          height:316px;
+          
         }
         @media @desktop {
-          width:400px;
-          height:400px;
+          width:316px;
+          height:316px;
+        }
+      }
+      
+      .image-container{
+        position:relative;
+        display: flex;
+        justify-content: center;
+        .circle {
+          position:absolute;
+          width:190px;
+          height:190px;
+          border-radius:50%;
+          border:2px solid #ECF1EA;
+          bottom: 5px;
+          top: 5px;
+          @media @tablet1 {
+            width:292px;
+            height:292px;
+            bottom: 12px;
+            top: 12px;
+          }
+          @media @tablet2 {
+  
+            width:292px;
+            height:292px;
+            bottom: 12px;
+            top: 12px;
+          }
+          @media @desktop {
+            width:292px;
+            height:292px;
+            bottom: 12px;
+            top: 12px;
+          }
+         
+    
         }
       }
     }
   .designer{
-    padding-top:10%;
+    padding-top:65px;
     padding-bottom:5%;
   }
   }
