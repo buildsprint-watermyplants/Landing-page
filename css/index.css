@@ -950,20 +950,20 @@ footer nav a {
   padding-top: 80px;
   background: #ECF1EA;
 }
-.contact-page a {
-  text-decoration: none;
-}
-.contact-page a h1 {
+.contact-page h1 {
   color: #384F94;
   font-size: 2.4rem;
   margin-left: 5%;
 }
 @media (min-width: 1025px) {
-  .contact-page a h1 {
+  .contact-page h1 {
     color: #384F94;
     font-size: 5.4rem;
     margin-left: 11%;
   }
+}
+.contact-page h1 a {
+  text-decoration: none;
 }
 .contact-page .form-container {
   margin: 0 auto;
