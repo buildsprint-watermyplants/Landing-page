@@ -532,7 +532,12 @@ footer nav a {
 }
 @media (min-width: 801px) and (max-width:1024px) {
 }
-@media (min-width: 1025px) {
+@media (min-width: 1025px) and (max-width: 1530px) {
+  .whatOffered {
+    padding: 120px 4% 0;
+  }
+}
+@media (min-width: 1531px) {
   .whatOffered {
     background: #ECF1EA;
     padding: 120px 151px 0;
@@ -576,18 +581,11 @@ footer nav a {
     flex-direction: column;
   }
 }
-@media (min-width: 1025px) and (max-width: 1534px) {
-  .whatOffered .offer-container {
-    flex-direction: row;
-    margin: 0 -80px;
-  }
-}
 @media (min-width: 1025px) {
   .whatOffered .offer-container {
-    margin: 0 108px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 }
 .whatOffered .offer-container .info-box {
@@ -663,12 +661,14 @@ footer nav a {
   .whatOffered .offer-container .info-box .text-container {
     font-size: 1.4rem;
     height: 160px;
+    line-height: 1.5px;
   }
 }
 @media (min-width: 801px) and (max-width:1024px) {
   .whatOffered .offer-container .info-box .text-container {
     font-size: 1.4rem;
     height: 160px;
+    line-height: 1.5px;
   }
 }
 @media (min-width: 1025px) {

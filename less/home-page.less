@@ -287,7 +287,6 @@
   margin: 0 auto;
   padding: 10% 11%;
   background: #E3EBE0;
-  // padding-bottom: 60px;
 
 
   @media @tablet1  {
@@ -296,8 +295,12 @@
   @media @tablet2  {
     // padding: none;
   }
+  @media @laptop {
+    padding: 120px 4% 0;
+
+  }
   
-  @media @desktop {
+  @media @desktop2 {
     background: #ECF1EA;
     padding: 120px 151px 0;
   }
@@ -338,15 +341,14 @@
     }
     
     @media @laptop {
-      flex-direction: row;
-      margin: 0 -80px;
     }
-
+    
     @media @desktop {
-      margin: 0 108px;
+      flex-direction: row;
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: space-around;
+      
     }
 
     
@@ -418,13 +420,13 @@
         @media @tablet1 {
           font-size: 1.4rem;
           height: 160px;
-          // line-height: 1.5px;
+          line-height: 1.5px;
         }
         
         @media @tablet2 {
           font-size: 1.4rem;
           height: 160px;
-          // line-height: 1.5px;
+          line-height: 1.5px;
 
         }
 
