@@ -36,14 +36,14 @@
     <h1>Get in touch.</h1>
 
     <div class="form-container">
-      <form mame="contact" action="POST" data-netlify="true" netlify-honeypot="bot-field">
+      <form mame="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
           <input type="hidden" name="form-name" value="contact" />
           
           <label for="name">Name</label>
-          <input type="text" name="name"required>
+          <input type="text" name="name"required/>
 
           <label for="email">email</label>
-          <input type="email" name="email" required>
+          <input type="email" name="email" required/>
 
           <label for="message">Your Message</label>
           <textarea name="message" id="message" cols="5" rows="25" required ></textarea>
